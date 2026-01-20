@@ -111,7 +111,6 @@ class CyberInterface:
 
         self.root.after(4000, self.monitoramento_continuo)
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = CyberInterface(root)
-    root.mainloop()
+root = tk.Tk()
+app = CyberInterface(root)
+root.mainloop()
